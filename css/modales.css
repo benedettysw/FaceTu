@@ -1,0 +1,157 @@
+/* Estilos para el modal */
+.modal {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+    z-index: 1;
+}
+
+/* Cuando el modal está abierto */
+.modal.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modal-content {
+    background-color: #000000;
+    padding: 20px;
+    width: 450px; /* Ancho del modal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: black;
+    position: relative;
+}
+
+
+/* X para cerrar el modal */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.link-modal-informacion{
+    color: blueviolet;
+}
+
+
+
+/* MODAL DE SERVICIO AL CLIENTE ----------------------------------------------------------------- */
+
+
+
+/* Estilos para el modal */
+.modal-queja {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+    z-index: 1;
+}
+
+/* Cuando el modal está abierto */
+.modal-queja.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modal-contentx {
+    background-color: #000000;
+    padding: 20px;
+    width: 450px; /* Ancho del modal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: black;
+    position: relative;
+}
+
+
+/* X para cerrar el modal */
+.cerrar-queja {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+
+/* MODAL SOCIAL MEDIA  --------------------------------------------------------------*/
+
+
+
+/* Estilos para el modal */
+.SocialMedia{
+    display: none;/* Oculto por defecto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+    z-index: 1;
+}
+
+/* Cuando el modal está abierto */
+.SocialMedia.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modal-SocialMedia {
+    background-color: #000000;
+    padding: 20px;
+    width: 450px; /* Ancho del modal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: black;
+    position: relative;
+}
+
+
+/* X para cerrar el modal */
+.cerrar-SocialMedia {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+
+.logo-redesSociales{
+    padding: 1rem;
+}
+
+
+.logo-redesSociales > a{
+    padding: 2rem;
+}
+
+
+.botonFlotante{
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+}
